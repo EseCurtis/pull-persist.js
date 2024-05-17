@@ -110,7 +110,7 @@ persistor.initialize((restoredState) => {
 });
 ```
 
-In this example, `PullPersistor` is used to persist the state of a simple counter across page reloads using `localStorage`|`sessionStorage`. The restored state is logged to the console when the persistor is initialized.
+In this example, `PullPersistor` is used to persist the state of a simple counter across page reloads using `localStorage`. The restored state is logged to the console when the persistor is initialized.
 
 ## License
 
