@@ -1,6 +1,6 @@
 {
   "name": "pull-persist",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "unoffical persistor for pullstate state manager library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
     "url": "https://github.com/EseCurtis/pull-persist.js.git"
   },
   "scripts": {
+    "publish": "git add . && git commit -m 'update' && git push origin && tsc && npm publish",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
