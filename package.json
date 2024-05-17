@@ -1,0 +1,20 @@
+{
+  "name": "pull-persist",
+  "version": "1.0.0",
+  "description": "unoffical persistor for pullstate state manager library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ese Curtis",
+  "license": "ISC",
+  "dependencies": {
+    "pullstate": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
