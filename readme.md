@@ -4,10 +4,10 @@
 
 ## Installation
 
-To use `PullPersistor`, ensure you have the `pullstate` library installed:
+You can install `PullPersistor` from npm:
 
 ```bash
-npm install pullstate
+npm install pull-persist
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install pullstate
 First, import the `PullPersistor` class into your project:
 
 ```javascript
-import PullPersistor from './path/to/PullPersistor';
+import PullPersistor from 'pull-persist';
 ```
 
 ### Initializing the Persistor
@@ -26,7 +26,7 @@ Create an instance of `PullPersistor` by passing your `pullstate` store, a uniqu
 
 ```javascript
 import { Store } from 'pullstate';
-import PullPersistor from './path/to/PullPersistor';
+import PullPersistor from 'pull-persist';
 
 // Define your store type
 type CounterState = {
@@ -91,7 +91,7 @@ Initializes the persistor, loading the state from storage if available and subsc
 
 ```typescript
 import { Store } from 'pullstate';
-import PullPersistor from './path/to/PullPersistor';
+import PullPersistor from 'pull-persist';
 
 type CounterState = {
   count: number;
@@ -110,7 +110,7 @@ persistor.initialize((restoredState) => {
 });
 ```
 
-In this example, `PullPersistor` is used to persist the state of a simple counter across page reloads using `localStorage`| `sessionStorage`. The restored state is logged to the console when the persistor is initialized.
+In this example, `PullPersistor` is used to persist the state of a simple counter across page reloads using `localStorage`|`sessionStorage`. The restored state is logged to the console when the persistor is initialized.
 
 ## License
 
