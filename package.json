@@ -1,6 +1,6 @@
 {
   "name": "pull-persist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "unoffical persistor for pullstate state manager library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
